@@ -170,6 +170,6 @@ class SingleStageDetector(BaseDetector):
                 *outs, img_metas, with_nms=with_nms)
         except:
             det_bboxes, det_labels = self.bbox_head.get_bboxes(
-                *outs, img_metas, with_nms=with_nms)
+                *outs, img_metas, with_nms=with_nms)[0]
 
         return det_bboxes, det_labels
