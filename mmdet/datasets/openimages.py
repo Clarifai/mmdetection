@@ -9,7 +9,7 @@ from collections import OrderedDict, defaultdict
 import mmcv
 import numpy as np
 import torch.distributed as dist
-from mmcv.runner import get_dist_info
+from mmengine.runner import get_dist_info
 from mmcv.utils import print_log
 
 from mmdet.core import eval_map

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.parallel import is_module_wrapper
-from mmcv.runner import HOOKS, Hook
+from mmengine.runner import HOOKS, Hook
 
 
 @HOOKS.register_module()

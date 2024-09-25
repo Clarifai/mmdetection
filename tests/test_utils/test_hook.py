@@ -9,7 +9,7 @@ import numpy as np
 import pytest
 import torch
 import torch.nn as nn
-from mmcv.runner import (CheckpointHook, IterTimerHook, PaviLoggerHook,
+from mmengine.runner import (CheckpointHook, IterTimerHook, PaviLoggerHook,
                          build_runner)
 from torch.nn.init import constant_
 from torch.utils.data import DataLoader, Dataset

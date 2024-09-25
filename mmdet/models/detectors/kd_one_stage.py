@@ -3,7 +3,7 @@ from pathlib import Path
 
 import mmcv
 import torch
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 
 from .. import build_detector
 from ..builder import DETECTORS

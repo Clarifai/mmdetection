@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import numpy as np
 import torch
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import (anchor_inside_flags, images_to_levels, multi_apply,
                         unmap)

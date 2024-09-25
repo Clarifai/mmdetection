@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule
-from mmcv.runner import BaseModule, ModuleList, force_fp32
+from mmengine.runner import BaseModule, ModuleList, force_fp32
 
 from mmdet.core import build_sampler, fast_nms, images_to_levels, multi_apply
 from mmdet.core.utils import select_single_mlvl

@@ -4,7 +4,7 @@ from abc import ABCMeta, abstractmethod
 import torch
 from mmcv.cnn.utils.weight_init import constant_init
 from mmcv.ops import batched_nms
-from mmcv.runner import BaseModule, force_fp32
+from mmengine.runner import BaseModule, force_fp32
 
 from mmdet.core.utils import filter_scores_and_topk, select_single_mlvl
 

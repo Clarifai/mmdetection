@@ -8,7 +8,7 @@ import mmcv
 import torch
 from mmcv import DictAction
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
-from mmcv.runner import (get_dist_info, init_dist, load_checkpoint,
+from mmengine.runner import (get_dist_info, init_dist, load_checkpoint,
                          wrap_fp16_model)
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
@@ -323,7 +323,7 @@ def main():
                     if eval_types:
                         for eval_type in eval_types:
                             if eval_type == 'bbox':
-                                test_dataset = mmcv.runner.obj_from_dict(
+                                test_dataset = mmengine.runner.obj_from_dict(
                                     cfg.data.test, datasets)
                                 logger = 'print' if args.summaries else None
                                 mean_ap, eval_results = \

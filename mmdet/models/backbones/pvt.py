@@ -11,7 +11,7 @@ from mmcv.cnn import (Conv2d, build_activation_layer, build_norm_layer,
 from mmcv.cnn.bricks.drop import build_dropout
 from mmcv.cnn.bricks.transformer import MultiheadAttention
 from mmcv.cnn.utils.weight_init import trunc_normal_
-from mmcv.runner import (BaseModule, ModuleList, Sequential, _load_checkpoint,
+from mmengine.runner import (BaseModule, ModuleList, Sequential, _load_checkpoint,
                          load_state_dict)
 from torch.nn.modules.utils import _pair as to_2tuple
 

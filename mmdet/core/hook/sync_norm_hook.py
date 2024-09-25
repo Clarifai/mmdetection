@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from collections import OrderedDict
 
-from mmcv.runner import get_dist_info
-from mmcv.runner.hooks import HOOKS, Hook
+from mmengine.runner import get_dist_info
+from mmengine.runner.hooks import HOOKS, Hook
 from torch import nn
 
 from ..utils.dist_utils import all_reduce_dict

@@ -5,7 +5,7 @@ import os.path as osp
 
 import mmcv
 from mmengine.config import Config, DictAction
-from mmcv.runner import init_dist
+from mmengine.runner import init_dist
 from terminaltables import GithubFlavoredMarkdownTable
 
 from tools.analysis_tools.benchmark import repeat_measure_inference_speed

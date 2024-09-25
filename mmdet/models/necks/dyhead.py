@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from mmcv.cnn import (build_activation_layer, build_norm_layer, constant_init,
                       normal_init)
 from mmcv.ops.modulated_deform_conv import ModulatedDeformConv2d
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from ..builder import NECKS
 from ..utils import DyReLU

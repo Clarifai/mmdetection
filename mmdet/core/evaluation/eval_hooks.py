@@ -4,8 +4,8 @@ import os.path as osp
 
 import mmcv
 import torch.distributed as dist
-from mmcv.runner import DistEvalHook as BaseDistEvalHook
-from mmcv.runner import EvalHook as BaseEvalHook
+from mmengine.runner import DistEvalHook as BaseDistEvalHook
+from mmengine.runner import EvalHook as BaseEvalHook
 from torch.nn.modules.batchnorm import _BatchNorm
 
 

@@ -4,7 +4,7 @@ import torch.nn as nn
 from mmcv.cnn import (bias_init_with_prob, build_activation_layer,
                       build_norm_layer)
 from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
-from mmcv.runner import auto_fp16, force_fp32
+from mmengine.runner import auto_fp16, force_fp32
 
 from mmdet.core import multi_apply
 from mmdet.models.builder import HEADS, build_loss

@@ -3,7 +3,7 @@ import copy
 import warnings
 
 from mmcv.cnn import VGG
-from mmcv.runner.hooks import HOOKS, Hook
+from mmengine.runner.hooks import HOOKS, Hook
 
 from mmdet.datasets.builder import PIPELINES
 from mmdet.datasets.pipelines import (LoadAnnotations, LoadImageFromFile,

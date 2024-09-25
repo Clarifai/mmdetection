@@ -3,7 +3,7 @@ import math
 
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmcv.runner import BaseModule, auto_fp16
+from mmengine.runner import BaseModule, auto_fp16
 
 from mmdet.models.builder import NECKS
 

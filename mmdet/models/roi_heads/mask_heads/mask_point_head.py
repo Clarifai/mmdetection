@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.ops import point_sample, rel_roi_point_to_rel_img_point
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from mmdet.models.builder import HEADS, build_loss
 from mmdet.models.utils import (get_uncertain_point_coords_with_randomness,

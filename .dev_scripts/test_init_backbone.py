@@ -6,7 +6,7 @@ from os.path import dirname, exists, join
 
 import pytest
 from mmengine.config import Config, ProgressBar
-from mmcv.runner import _load_checkpoint
+from mmengine.runner import _load_checkpoint
 
 from mmdet.models import build_detector
 

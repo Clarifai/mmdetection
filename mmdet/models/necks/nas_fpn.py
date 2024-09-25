@@ -2,7 +2,7 @@
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.ops.merge_cells import GlobalPoolingCell, SumCell
-from mmcv.runner import BaseModule, ModuleList
+from mmengine.runner import BaseModule, ModuleList
 
 from ..builder import NECKS
 

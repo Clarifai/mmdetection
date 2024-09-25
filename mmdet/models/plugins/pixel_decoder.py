@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from mmcv.cnn import PLUGIN_LAYERS, Conv2d, ConvModule, caffe2_xavier_init
 from mmcv.cnn.bricks.transformer import (build_positional_encoding,
                                          build_transformer_layer_sequence)
-from mmcv.runner import BaseModule, ModuleList
+from mmengine.runner import BaseModule, ModuleList
 
 
 @PLUGIN_LAYERS.register_module()

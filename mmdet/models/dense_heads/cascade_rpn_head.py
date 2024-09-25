@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 from mmengine.config import ConfigDict
 from mmcv.ops import DeformConv2d, batched_nms
-from mmcv.runner import BaseModule, ModuleList
+from mmengine.runner import BaseModule, ModuleList
 
 from mmdet.core import (RegionAssigner, build_assigner, build_sampler,
                         images_to_levels, multi_apply)

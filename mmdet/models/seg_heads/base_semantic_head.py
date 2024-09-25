@@ -2,7 +2,7 @@
 from abc import ABCMeta, abstractmethod
 
 import torch.nn.functional as F
-from mmcv.runner import BaseModule, force_fp32
+from mmengine.runner import BaseModule, force_fp32
 
 from ..builder import build_loss
 from ..utils import interpolate_as

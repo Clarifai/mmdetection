@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmcv.runner.hooks import HOOKS, Hook
+from mmengine.runner.hooks import HOOKS, Hook
 
 
 @HOOKS.register_module()

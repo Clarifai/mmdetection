@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, bias_init_with_prob
 from mmcv.ops import CornerPool, batched_nms
-from mmcv.runner import BaseModule, force_fp32
+from mmengine.runner import BaseModule, force_fp32
 
 from mmdet.core import multi_apply
 from ..builder import HEADS, build_loss

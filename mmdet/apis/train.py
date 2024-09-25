@@ -5,7 +5,7 @@ import random
 import numpy as np
 import torch
 import torch.distributed as dist
-from mmcv.runner import (DistSamplerSeedHook, EpochBasedRunner,
+from mmengine.runner import (DistSamplerSeedHook, EpochBasedRunner,
                          Fp16OptimizerHook, OptimizerHook, build_optimizer,
                          build_runner, get_dist_info)
 

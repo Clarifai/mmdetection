@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import numpy as np
 import torch
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import multi_apply, multiclass_nms
 from mmdet.core.bbox.iou_calculators import bbox_overlaps

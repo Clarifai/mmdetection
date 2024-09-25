@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.ops import DeformConv2d
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from mmdet.core import multi_apply
 from mmdet.core.utils import filter_scores_and_topk

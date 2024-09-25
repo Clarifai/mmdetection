@@ -9,7 +9,7 @@ import mmcv
 import torch
 from mmengine.config import Config, DictAction
 from mmcv.cnn import fuse_conv_bn
-from mmcv.runner import (get_dist_info, init_dist, load_checkpoint,
+from mmengine.runner import (get_dist_info, init_dist, load_checkpoint,
                          wrap_fp16_model)
 
 from mmdet.apis import multi_gpu_test, single_gpu_test

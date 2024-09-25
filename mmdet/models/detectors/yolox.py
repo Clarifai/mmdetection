@@ -4,7 +4,7 @@ import random
 import torch
 import torch.distributed as dist
 import torch.nn.functional as F
-from mmcv.runner import get_dist_info
+from mmengine.runner import get_dist_info
 
 from ...utils import log_img_scale
 from ..builder import DETECTORS

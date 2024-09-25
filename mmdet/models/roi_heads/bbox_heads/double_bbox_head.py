@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmcv.runner import BaseModule, ModuleList
+from mmengine.runner import BaseModule, ModuleList
 
 from mmdet.models.backbones.resnet import Bottleneck
 from mmdet.models.builder import HEADS

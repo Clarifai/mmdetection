@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.cnn import ConvModule, Linear
-from mmcv.runner import ModuleList, auto_fp16
+from mmengine.runner import ModuleList, auto_fp16
 
 from mmdet.models.builder import HEADS
 from .fcn_mask_head import FCNMaskHead

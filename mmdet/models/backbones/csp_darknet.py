@@ -4,7 +4,7 @@ import math
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm
 
 from ..builder import BACKBONES

@@ -3,7 +3,7 @@ import mmcv
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 
 class SELayer(BaseModule):

@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import bias_init_with_prob, normal_init
 from mmcv.ops import batched_nms
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import multi_apply
 from mmdet.models import HEADS, build_loss

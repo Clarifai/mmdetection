@@ -2,7 +2,7 @@
 import warnings
 
 import torch.nn as nn
-from mmcv.runner import BaseModule, auto_fp16
+from mmengine.runner import BaseModule, auto_fp16
 
 from mmdet.models.backbones import ResNet
 from mmdet.models.builder import SHARED_HEADS

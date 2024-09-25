@@ -2,7 +2,7 @@
 import torch.nn as nn
 from mmcv.cnn import ConvModule, normal_init
 from mmcv.ops import DeformConv2d
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import multi_apply
 from ..builder import HEADS, build_loss

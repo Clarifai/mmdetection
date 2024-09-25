@@ -2,7 +2,7 @@
 import math
 
 from mmcv.parallel import is_module_wrapper
-from mmcv.runner.hooks import HOOKS, Hook
+from mmengine.runner.hooks import HOOKS, Hook
 
 
 class BaseEMAHook(Hook):

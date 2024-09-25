@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 import torch.nn as nn
-from mmcv.runner import BaseModule
+from mmengine.runner import BaseModule
 
 from mmdet.models.builder import HEADS
 from ...core import bbox_cxcywh_to_xyxy

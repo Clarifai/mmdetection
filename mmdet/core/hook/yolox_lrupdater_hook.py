@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.runner.hooks import HOOKS
-from mmcv.runner.hooks.lr_updater import (CosineAnnealingLrUpdaterHook,
+from mmengine.runner.hooks import HOOKS
+from mmengine.runner.hooks.lr_updater import (CosineAnnealingLrUpdaterHook,
                                           annealing_cos)
 
 

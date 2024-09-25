@@ -8,7 +8,7 @@ from unittest.mock import MagicMock, patch
 import pytest
 import torch
 import torch.nn as nn
-from mmcv.runner import EpochBasedRunner, build_optimizer
+from mmengine.runner import EpochBasedRunner, build_optimizer
 from mmcv.utils import get_logger
 from torch.utils.data import DataLoader, Dataset
 

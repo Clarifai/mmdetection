@@ -3,7 +3,7 @@ import warnings
 
 import torch
 import torch.nn as nn
-from mmcv.runner import ModuleList
+from mmengine.runner import ModuleList
 
 from ..builder import HEADS
 from ..utils import ConvUpsample

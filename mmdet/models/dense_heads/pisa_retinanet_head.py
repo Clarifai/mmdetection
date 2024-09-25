@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import images_to_levels
 from ..builder import HEADS

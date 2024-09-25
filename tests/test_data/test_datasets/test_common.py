@@ -10,7 +10,7 @@ import numpy as np
 import pytest
 import torch
 import torch.nn as nn
-from mmcv.runner import EpochBasedRunner
+from mmengine.runner import EpochBasedRunner
 from torch.utils.data import DataLoader
 
 from mmdet.core.evaluation import DistEvalHook, EvalHook

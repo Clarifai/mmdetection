@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import bias_init_with_prob, normal_init
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import multi_apply
 from mmdet.core.anchor.point_generator import MlvlPointGenerator

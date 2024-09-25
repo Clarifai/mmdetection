@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import Linear, bias_init_with_prob, constant_init
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import multi_apply
 from mmdet.models.utils.transformer import inverse_sigmoid

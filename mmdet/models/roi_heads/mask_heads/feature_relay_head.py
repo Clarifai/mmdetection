@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch.nn as nn
-from mmcv.runner import BaseModule, auto_fp16
+from mmengine.runner import BaseModule, auto_fp16
 
 from mmdet.models.builder import HEADS
 

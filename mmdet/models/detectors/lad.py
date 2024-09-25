@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 import torch.nn as nn
-from mmcv.runner import load_checkpoint
+from mmengine.runner import load_checkpoint
 
 from ..builder import DETECTORS, build_backbone, build_head, build_neck
 from .kd_one_stage import KnowledgeDistillationSingleStageDetector

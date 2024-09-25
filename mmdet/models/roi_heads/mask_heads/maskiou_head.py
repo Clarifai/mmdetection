@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from mmcv.cnn import Conv2d, Linear, MaxPool2d
-from mmcv.runner import BaseModule, force_fp32
+from mmengine.runner import BaseModule, force_fp32
 from torch.nn.modules.utils import _pair
 
 from mmdet.models.builder import HEADS, build_loss

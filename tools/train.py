@@ -10,7 +10,7 @@ import mmcv
 import torch
 import torch.distributed as dist
 from mmengine.config import Config, DictAction
-from mmcv.runner import get_dist_info, init_dist
+from mmengine.runner import get_dist_info, init_dist
 from mmcv.utils import get_git_hash
 
 from mmdet import __version__

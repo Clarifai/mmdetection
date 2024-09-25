@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import (ConvModule, bias_init_with_prob, constant_init, is_norm,
                       normal_init)
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import anchor_inside_flags, multi_apply, reduce_mean, unmap
 from ..builder import HEADS

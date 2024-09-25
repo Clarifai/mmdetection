@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 import torch.nn as nn
-from mmcv.runner import auto_fp16, force_fp32
+from mmengine.runner import auto_fp16, force_fp32
 
 from mmdet.core import mask_target
 from mmdet.models.builder import HEADS

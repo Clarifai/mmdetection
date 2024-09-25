@@ -5,7 +5,7 @@ from abc import abstractmethod
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import build_bbox_coder, multi_apply
 from mmdet.core.anchor.point_generator import MlvlPointGenerator

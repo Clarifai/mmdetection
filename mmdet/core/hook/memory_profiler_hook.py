@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.runner.hooks import HOOKS, Hook
+from mmengine.runner.hooks import HOOKS, Hook
 
 
 @HOOKS.register_module()

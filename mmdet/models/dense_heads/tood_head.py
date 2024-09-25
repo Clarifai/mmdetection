@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule, Scale, bias_init_with_prob, normal_init
 from mmcv.ops import deform_conv2d
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import (anchor_inside_flags, build_assigner, distance2bbox,
                         images_to_levels, multi_apply, reduce_mean, unmap)

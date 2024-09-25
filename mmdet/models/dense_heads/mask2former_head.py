@@ -8,7 +8,7 @@ from mmcv.cnn import Conv2d, build_plugin_layer, caffe2_xavier_init
 from mmcv.cnn.bricks.transformer import (build_positional_encoding,
                                          build_transformer_layer_sequence)
 from mmcv.ops import point_sample
-from mmcv.runner import ModuleList
+from mmengine.runner import ModuleList
 
 from mmdet.core import build_assigner, build_sampler, reduce_mean
 from mmdet.models.utils import get_uncertain_point_coords_with_randomness

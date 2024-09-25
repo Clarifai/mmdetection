@@ -4,7 +4,7 @@ import warnings
 import torch
 import torch.nn as nn
 from mmcv.ops import DeformConv2d, MaskedConv2d
-from mmcv.runner import BaseModule, force_fp32
+from mmengine.runner import BaseModule, force_fp32
 
 from mmdet.core import (anchor_inside_flags, build_assigner, build_bbox_coder,
                         build_prior_generator, build_sampler, calc_region,

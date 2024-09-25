@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from mmcv.cnn import Conv2d, build_plugin_layer, caffe2_xavier_init
 from mmcv.cnn.bricks.transformer import (build_positional_encoding,
                                          build_transformer_layer_sequence)
-from mmcv.runner import force_fp32
+from mmengine.runner import force_fp32
 
 from mmdet.core import build_assigner, build_sampler, multi_apply, reduce_mean
 from mmdet.models.utils import preprocess_panoptic_gt

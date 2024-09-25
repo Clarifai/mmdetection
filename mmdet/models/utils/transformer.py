@@ -13,7 +13,7 @@ from mmcv.cnn.bricks.registry import (TRANSFORMER_LAYER,
 from mmcv.cnn.bricks.transformer import (BaseTransformerLayer,
                                          TransformerLayerSequence,
                                          build_transformer_layer_sequence)
-from mmcv.runner.base_module import BaseModule
+from mmengine.runner.base_module import BaseModule
 from mmcv.utils import to_2tuple
 from torch.nn.init import normal_
 
